@@ -1,0 +1,17 @@
+.header__tittle {
+    text-align: center;
+}
+
+.main__inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    width: 100px;
+    padding: 5px 5px;
+}
+
+.hide {
+    display: none;
+}

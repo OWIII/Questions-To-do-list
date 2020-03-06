@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__tittle">Вопросник</h1>
+    </header>
+    <main class="main">
+        <form class="main__form">
+            <fieldset class="main__fieldset firstQuestion">
+                <legend>Какое животное имеет хобот?</legend>
+                <div class="main__inputs firstQuestion">
+                    <div>
+                        <input class="firstAnswer_1" id="firstAnswer_1" type="radio" name="firstQuestion" value="firstQuestion">
+                        <label class="label-radio" for="firstAnswer_1">Слон</label>
+                    </div>
+                    <div>
+                        <input class="firstAnswer_2" id="firstAnswer_2" type="radio" name="firstQuestion" value="firstQuestion">
+                        <label class="label-radio" for="firstAnswer_2">Тигр</label>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset class="main__fieldset secondQuestion">
+                <legend>Выберите верные утверждения</legend>
+                <div class="main__inputs secondQuestion">
+                    <div>
+                        <input class="secondAnswer_1" id="secondAnswer_1" type="checkbox" name="secondQuestion" value="secondQuestion">
+                        <label class="label-checkbox" for="secondAnswer_1">Москва - столица России</label>
+                    </div>
+                    <div>
+                        <input class="secondAnswer_2" id="secondAnswer_2" type="checkbox" name="secondQuestion" value="secondQuestion">
+                        <label class="label-checkbox" for="secondAnswer_2">Тамбул - столица Грузии</label>
+                    </div>
+                    <div>
+                        <input class="secondAnswer_3" id="secondAnswer_3" type="checkbox" name="secondQuestion" value="secondQuestion">
+                        <label class="label-checkbox" for="secondAnswer_3">Минск - столица Белоруссии</label>
+                    </div>
+                    <div>
+                        <input class="secondAnswer_4" id="secondAnswer_4" type="checkbox" name="secondQuestion" value="secondQuestion">
+                        <label class="label-checkbox" for="secondAnswer_4">Сидней - столица Австралии</label>
+                    </div>
+                </div>
+            </fieldset>
+        <fieldset class="main__button">
+            <button type="submit" class="button" disabled>Отправить</button>
+        </fieldset>
+        </form>
+        <div class="results hide">
+            <p class="results__text"></p>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

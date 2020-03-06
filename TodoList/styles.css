@@ -1,0 +1,106 @@
+.header__tittle {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    margin: 50px auto 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li * {
+    float: left;
+}
+
+li,
+h3 {
+    clear: both;
+    list-style: none;
+}
+
+input,
+button {
+    outline: none;
+}
+
+button {
+    margin: 10px 0 0;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+h3,
+label[for='new-task'] {
+    padding: 30px 0 10px;
+    margin: 0;
+}
+
+input[type="text"] {
+    margin: 0;
+    font-size: 18px;
+    line-height: 18px;
+    height: 18px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+input[type="text"]:focus {
+    color: #333;
+}
+
+label[for='new-task'] {
+    display: block;
+    margin: 0 0 20px;
+}
+
+input#new-task {
+    float: left;
+    width: 318px;
+}
+
+li {
+    overflow: hidden;
+    padding: 20px 0;
+    border-bottom: solid 1px #eee;
+}
+
+li>input[type="checkbox"] {
+    margin: 0 10px;
+    position: relative;
+    top: 15px;
+}
+
+li>label {
+    font-size: 18px;
+    line-height: 40px;
+    width: 237px;
+    padding: 0 0 0 15px;
+}
+
+ul li input[type=text] {
+    display: none;
+}
+
+ul li.editMode input[type=text] {
+    display: block;
+}
+
+ul li.editMode label {
+    display: none;
+}
+
+.delete {
+    margin-left: 20px;
+}
+
+.main__add label {
+    font-size: 18px;
+    font-weight: 900;
+}
